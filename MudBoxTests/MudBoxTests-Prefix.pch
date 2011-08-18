@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'MudBoxTests' target in the 'MudBoxTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
