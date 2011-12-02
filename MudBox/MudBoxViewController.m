@@ -7,9 +7,17 @@
 //
 
 #import "MudBoxViewController.h"
+//#import "BWUtilities.h"
+
 
 @implementation MudBoxViewController
 
+@synthesize textView;
+
+- (void) sandbox{
+    message(@"sandbox version %@",kBWUtilitiesVersion);
+    
+}
 - (void)dealloc
 {
     [super dealloc];
@@ -25,13 +33,20 @@
 
 #pragma mark - View lifecycle
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    //define external variable - used from bwutilities.
+    extern UITextView *messageTextView;
+    messageTextView = textView;
+    textView.font = [UIFont systemFontOfSize:12];
+    [self sandbox];
+    
 }
-*/
+
+
 
 - (void)viewDidUnload
 {

@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BWUtilities.h"
 
 @interface MudBoxViewController : UIViewController {
-    
+    IBOutlet UITextView * textView;
 }
+
+@property (nonatomic,retain) IBOutlet UITextView *textView;
+
+- (void) sandbox;
 
 @end

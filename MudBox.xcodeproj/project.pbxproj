@@ -22,6 +22,7 @@
 		4BACF45113FD604000A0782C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4BACF44F13FD604000A0782C /* InfoPlist.strings */; };
 		4BACF45413FD604000A0782C /* MudBoxTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 4BACF45313FD604000A0782C /* MudBoxTests.h */; };
 		4BACF45613FD604000A0782C /* MudBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BACF45513FD604000A0782C /* MudBoxTests.m */; };
+		4BACF46213FD635800A0782C /* BWUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BACF46113FD635800A0782C /* BWUtilities.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,22 +40,24 @@
 		4BACF42613FD604000A0782C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4BACF42813FD604000A0782C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4BACF42A13FD604000A0782C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4BACF42E13FD604000A0782C /* MudBox-Info.plist */ = {isa = PBXFileReference; path = "MudBox-Info.plist"; sourceTree = "<group>"; };
+		4BACF42E13FD604000A0782C /* MudBox-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MudBox-Info.plist"; sourceTree = "<group>"; };
 		4BACF43013FD604000A0782C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4BACF43213FD604000A0782C /* MudBox-Prefix.pch */ = {isa = PBXFileReference; path = "MudBox-Prefix.pch"; sourceTree = "<group>"; };
+		4BACF43213FD604000A0782C /* MudBox-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MudBox-Prefix.pch"; sourceTree = "<group>"; };
 		4BACF43313FD604000A0782C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4BACF43513FD604000A0782C /* MudBoxAppDelegate.h */ = {isa = PBXFileReference; path = MudBoxAppDelegate.h; sourceTree = "<group>"; };
+		4BACF43513FD604000A0782C /* MudBoxAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MudBoxAppDelegate.h; sourceTree = "<group>"; };
 		4BACF43613FD604000A0782C /* MudBoxAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MudBoxAppDelegate.m; sourceTree = "<group>"; };
 		4BACF43913FD604000A0782C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		4BACF43B13FD604000A0782C /* MudBoxViewController.h */ = {isa = PBXFileReference; path = MudBoxViewController.h; sourceTree = "<group>"; };
+		4BACF43B13FD604000A0782C /* MudBoxViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MudBoxViewController.h; sourceTree = "<group>"; };
 		4BACF43C13FD604000A0782C /* MudBoxViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MudBoxViewController.m; sourceTree = "<group>"; };
 		4BACF43F13FD604000A0782C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MudBoxViewController.xib; sourceTree = "<group>"; };
 		4BACF44613FD604000A0782C /* MudBoxTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MudBoxTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4BACF44E13FD604000A0782C /* MudBoxTests-Info.plist */ = {isa = PBXFileReference; path = "MudBoxTests-Info.plist"; sourceTree = "<group>"; };
+		4BACF44E13FD604000A0782C /* MudBoxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MudBoxTests-Info.plist"; sourceTree = "<group>"; };
 		4BACF45013FD604000A0782C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4BACF45213FD604000A0782C /* MudBoxTests-Prefix.pch */ = {isa = PBXFileReference; path = "MudBoxTests-Prefix.pch"; sourceTree = "<group>"; };
+		4BACF45213FD604000A0782C /* MudBoxTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MudBoxTests-Prefix.pch"; sourceTree = "<group>"; };
 		4BACF45313FD604000A0782C /* MudBoxTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MudBoxTests.h; sourceTree = "<group>"; };
 		4BACF45513FD604000A0782C /* MudBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MudBoxTests.m; sourceTree = "<group>"; };
+		4BACF46013FD635800A0782C /* BWUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWUtilities.h; sourceTree = "<group>"; };
+		4BACF46113FD635800A0782C /* BWUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWUtilities.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,12 +116,12 @@
 		4BACF42C13FD604000A0782C /* MudBox */ = {
 			isa = PBXGroup;
 			children = (
+				4BACF45F13FD62EF00A0782C /* Classes */,
+				4BACF46313FD636100A0782C /* Resources */,
 				4BACF43513FD604000A0782C /* MudBoxAppDelegate.h */,
 				4BACF43613FD604000A0782C /* MudBoxAppDelegate.m */,
-				4BACF43813FD604000A0782C /* MainWindow.xib */,
 				4BACF43B13FD604000A0782C /* MudBoxViewController.h */,
 				4BACF43C13FD604000A0782C /* MudBoxViewController.m */,
-				4BACF43E13FD604000A0782C /* MudBoxViewController.xib */,
 				4BACF42D13FD604000A0782C /* Supporting Files */,
 			);
 			path = MudBox;
@@ -153,6 +156,24 @@
 				4BACF45213FD604000A0782C /* MudBoxTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4BACF45F13FD62EF00A0782C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4BACF46013FD635800A0782C /* BWUtilities.h */,
+				4BACF46113FD635800A0782C /* BWUtilities.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		4BACF46313FD636100A0782C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4BACF43813FD604000A0782C /* MainWindow.xib */,
+				4BACF43E13FD604000A0782C /* MudBoxViewController.xib */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +284,7 @@
 				4BACF43413FD604000A0782C /* main.m in Sources */,
 				4BACF43713FD604000A0782C /* MudBoxAppDelegate.m in Sources */,
 				4BACF43D13FD604000A0782C /* MudBoxViewController.m in Sources */,
+				4BACF46213FD635800A0782C /* BWUtilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
