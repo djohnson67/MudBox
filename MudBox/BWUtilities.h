@@ -12,6 +12,7 @@ static BOOL const kMessageActive = YES;
 // populated from loadDidView
 UITextView * messageTextView;
 
+
 void message ( NSString *format, ... );
 void alertMessage ( NSString *format, ... );
 NSString * flattenHTML ( NSString * html );
